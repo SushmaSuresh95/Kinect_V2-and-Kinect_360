@@ -59,5 +59,7 @@ Then paste the following and save
  **7) Go to the directory ……./libfreenect/wrappers/python and run the following command**
  
         $sudo python setup.py install
+	
+ **8)  Install OpenCV:https://github.com/arunodhayan/HaarCascade-Trained-to-detect-my-Watch-/blob/master/Install_opencv.md**
  
         
