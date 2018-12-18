@@ -62,7 +62,7 @@ need_color_depth_map = False
 bigdepth = Frame(1920, 1082, 4) if need_bigdepth else None
 color_depth_map = np.zeros((424, 512),  np.int32).ravel() \
     if need_color_depth_map else None
-i=889
+i=0
 while True:
     frames = listener.waitForNewFrame()
     #t=time.strftime("%Y-%m-%d_%H-%M-%S")
